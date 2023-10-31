@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formular Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form action="form-submit.php" target="_blank" method="get">
+		<label class="label" for="fname">Your name:</label>
+		<input type="text" id="fname" minlength="3" maxlength="10"  name="Your name" placeholder="Elena" value="Elena" required /><br>
+		<br>
+		<label class="label" for="email">Your email:</label>
+		<input type="email" id="email" name="email" placeholder="email" required /><br>
+		<br>
+
+		Topping:
+		<input type="radio" name="topping" value="r1" checked>
+		Supreme:
+		<input type="radio" name="topping" value="r2">
+		Vegetarian:
+		<input type="radio" name="topping" value="r3">
+		Hawaian
+		<br>		
+		<br>
+		Sauce:
+		<select>
+			<option>Tomato</option>
+			<option selected >Pesto</option>
+		</select>
+		<br>
+		<br>
+		Extras:
+		<input type="checkbox" name="cheese" value="cheese" />
+		Cheese:
+		<input type="checkbox" name="Onions" value="Onions" />
+		Onions:
+		<input type="checkbox" name="Olives" value="Olives" />
+		Olives
+		<br>
+		<br>
+		Number:<br>
+		<input type="number" step="1"/><br><br>
+		Delivery date:<br>
+		<input type="date" /><br><br>
+		Delivery instructions:<br>
+		<textarea placeholder="text"></textarea><br><br>
+
+		<input type="submit" value="send order">
+		<input type="reset">
+
+	</form>
+
+</body>
+</html>

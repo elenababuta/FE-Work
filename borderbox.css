@@ -1,0 +1,17 @@
+ img{
+    width: 500px;
+    height: 300px;
+    
+    
+
+}
+
+.borderbox{
+
+    border: 10px dotted red;
+    padding: 15px;
+    background-clip: content-box;
+    width: 500px;
+    height: 300px;
+}
+
